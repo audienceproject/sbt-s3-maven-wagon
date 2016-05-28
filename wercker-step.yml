@@ -1,0 +1,14 @@
+name: sbt-s3-maven-wagon
+version: 1.0.0
+description: A Wercker step to configure the SBT S3 Maven wagon
+keywords:
+  - sbt
+  - s3
+  - maven
+properties:
+  key:
+    type: string
+    required: true
+  secret:
+    type: string
+    required: true
